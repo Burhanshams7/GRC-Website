@@ -1,0 +1,1671 @@
+.listwrk {
+    padding: 4px 2px;
+    margin-left: -21px;
+    border-radius: 1px 0px 14px 17px;
+    background: linear-gradient(to top, #007bff 5%, #007bff8c 50%);
+    box-shadow: inset 4px 3px 10px rgb(0 0 0 / 7%), 7px 1px 6px rgb(0 0 0 / 5%), 25px 9px 16px rgb(0 0 0 / 0%), inset -20px -20px 25px rgb(255 255 255 / 81%);
+}
+
+#wtsget {
+    color: black;
+}
+
+#num {
+    font-weight: 100;
+    font-family: sans-serif;
+}
+
+.listwrk h5 {
+    font-size: 13px;
+    margin-bottom: 1px;
+    font-family: 'Raleway';
+    text-transform: capitalize;
+}
+
+.listwrk h5 span {
+    font-weight: 600;
+    color: #0d0d0e;
+    margin-right: 3px;
+    margin-left: -2px;
+}
+
+#wtsico {
+    padding: 1px 2px 1px 1px;
+    font-size: 17px;
+    color: #1e1c1c;
+    font-weight: 700;
+}
+
+.bg-gray-950 {
+    padding: 5px 16px 0px 21px;
+}
+
+/*invite friend start*/
+
+.wrapinvite {
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+    color: #607D8B;
+    height: 100%;
+    overflow: auto;
+    padding: 1em 2.5em;
+    text-align: center;
+    width: 100%;
+}
+
+.wrapinvite h2 {
+    color: #127a3c;
+    line-height: 65px;
+    font-family: "Audiowide", cursive;
+    font-size: 45px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #fefefe;
+}
+
+.wrapinvite p {
+    color: #423e52;
+    font-size: 25px;
+    font-weight: 700;
+    text-transform: capitalize;
+    font-style: italic;
+    text-align: justify;
+}
+
+.invitefrnfimg {
+    width: 370px;
+    margin-top: 0px;
+}
+
+/*invite friend End*/
+
+/*popupform start*/
+
+.formpopup {
+    position: fixed;
+    display: block;
+    min-height: 0;
+    background: #9E9E9E;
+    border-radius: 3px;
+    opacity: 0;
+    color: rgb(0 0 0);
+    top: 60%;
+    left: 50%;
+    z-index: 100;
+    transform: translate(-50%, -50%);
+}
+
+.formpopup_show {
+    animation-name: fadeInDown;
+    animation-duration: 0.7s;
+    animation-timing-function: cubic-bezier(0.66, 0.12, 0.49, 0.89);
+    opacity: 1;
+    height: auto;
+}
+
+.formpopup_content {
+    padding: 5px 5px 5px 5px;
+    position: relative;
+}
+
+.formclose {
+    position: absolute;
+    cursor: pointer;
+    font-size: 1.7rem;
+    font-weight: 300;
+    top: -7px;
+    color: #9E9E9E;
+    right: -7px;
+    padding: 0rem 0.8rem 0.3rem 0.8rem;
+    border-radius: 50%;
+    background: rgb(254 229 160);
+    transition: all 0.3s ease-in-out;
+}
+
+.formclose:hover {
+    background: rgba(0, 0, 0, 0.2);
+}
+
+@-moz-keyframes fadeInDown {
+    0% {
+        opacity: 0;
+        height: auto;
+        transform: translate(-50%, -60%);
+    }
+    100% {
+        opacity: 1;
+        height: auto;
+        transform: translate(-50%, -50%);
+    }
+}
+
+@-webkit-keyframes fadeInDown {
+    0% {
+        opacity: 0;
+        height: auto;
+        transform: translate(-50%, -60%);
+    }
+    100% {
+        opacity: 1;
+        height: auto;
+        transform: translate(-50%, -50%);
+    }
+}
+
+@-o-keyframes fadeInDown {
+    0% {
+        opacity: 0;
+        height: auto;
+        transform: translate(-50%, -60%);
+    }
+    100% {
+        opacity: 1;
+        height: auto;
+        transform: translate(-50%, -50%);
+    }
+}
+
+@keyframes fadeInDown {
+    0% {
+        opacity: 0;
+        height: auto;
+        transform: translate(-50%, -60%);
+    }
+    100% {
+        opacity: 1;
+        height: auto;
+        transform: translate(-50%, -50%);
+    }
+}
+
+/*popupform end*/
+
+/* 81% client form start */
+
+.contact_innerform {
+    background: url(../ourproimg/our-latest-projects.jpg) no-repeat 0px 0px;
+    position: relative;
+    background-color: #fff;
+}
+
+.contactfield_client {
+    padding: 15px 40px 15px 50px;
+}
+
+.right_conatct_social_icon {
+    height: 100%;
+}
+
+.contactfield_client h3 {
+    color: #845037;
+    font-size: 40px;
+    letter-spacing: 1px;
+    font-weight: 800;
+    font-family: sans-serif;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.contact_usclientform {}
+
+.contactfield_client h6 {
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 22px;
+    margin-bottom: 20px;
+    text-align: center;
+    margin-top: 20px;
+    color: #845037;
+}
+
+.contactfield_client small {}
+
+.contactfield_client p {
+    color: #000;
+    font-family: 'FontAwesome';
+    font-size: 21px;
+    font-weight: 400;
+    font-style: italic;
+    letter-spacing: 1px;
+    margin-bottom: 35px;
+    text-transform: capitalize;
+    line-height: 44px;
+    margin-top: 20px;
+}
+
+.contactfield_client .inputclo {
+    border-radius: 0px;
+    border: none;
+    background: transparent;
+    border-bottom: 2px solid #795548;
+}
+
+.contactfield_client .inputclo:focus {
+    box-shadow: none;
+    outline: none;
+    border-bottom: 1px solid #ed8e08;
+}
+
+.contactfield_client .inputclo::placeholder {
+    font-size: 13px;
+    letter-spacing: 1px;
+}
+
+button.contact_form_submit {
+    background: linear-gradient(to top right, #ff9800 -5%, #845037 100%);
+    border: none;
+    color: #fff;
+    padding: 12px 15px;
+    width: 70%;
+    margin-top: 0px;
+    border-radius: 35px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.area {
+    background: linear-gradient(to top right, #ff9800 -5%, #845037 100%);
+    width: 108%;
+    height: 100%;
+}
+
+.circles {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.circles li {
+    position: absolute;
+    display: block;
+    list-style: none;
+    width: 20px;
+    height: 20px;
+    background: rgba(255, 255, 255, 0.2);
+    animation: animate 25s linear infinite;
+    bottom: -150px;
+}
+
+.circles li:nth-child(1) {
+    left: 25%;
+    width: 80px;
+    height: 80px;
+    animation-delay: 0s;
+}
+
+.circles li:nth-child(2) {
+    left: 10%;
+    width: 20px;
+    height: 20px;
+    animation-delay: 2s;
+    animation-duration: 12s;
+}
+
+.circles li:nth-child(3) {
+    left: 70%;
+    width: 20px;
+    height: 20px;
+    animation-delay: 4s;
+}
+
+.circles li:nth-child(4) {
+    left: 40%;
+    width: 60px;
+    height: 60px;
+    animation-delay: 0s;
+    animation-duration: 18s;
+}
+
+.circles li:nth-child(5) {
+    left: 65%;
+    width: 20px;
+    height: 20px;
+    animation-delay: 0s;
+}
+
+.circles li:nth-child(6) {
+    left: 75%;
+    width: 110px;
+    height: 110px;
+    animation-delay: 3s;
+}
+
+.circles li:nth-child(7) {
+    left: 35%;
+    width: 150px;
+    height: 150px;
+    animation-delay: 7s;
+}
+
+.circles li:nth-child(8) {
+    left: 50%;
+    width: 25px;
+    height: 25px;
+    animation-delay: 15s;
+    animation-duration: 45s;
+}
+
+.circles li:nth-child(9) {
+    left: 20%;
+    width: 15px;
+    height: 15px;
+    animation-delay: 2s;
+    animation-duration: 35s;
+}
+
+.circles li:nth-child(10) {
+    left: 85%;
+    width: 150px;
+    height: 150px;
+    animation-delay: 0s;
+    animation-duration: 11s;
+}
+
+@keyframes animate {
+    0% {
+        transform: translateY(0) rotate(0deg);
+        opacity: 1;
+        border-radius: 0;
+    }
+    100% {
+        transform: translateY(-1000px) rotate(720deg);
+        opacity: 0;
+        border-radius: 50%;
+    }
+}
+
+/* 81% client form end */
+
+/*topsec css*/
+
+.content-table {
+    font-family: sans-serif;
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 14px;
+}
+
+.content-table thead tr {
+    background-color: #9E9E9E;
+    color: #000000;
+    border-bottom: 1px solid #f1f1f1;
+}
+
+.content-table thead h3 {
+    font-family: sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.content-table th,
+.content-table td {
+    padding: 5px 5px;
+    font-family: sans-serif;
+    border: 1px solid #0808082e;
+}
+
+.content-table tbody tr {
+    background-color: #f1f1f1;
+    border-bottom: 1px solid #f1f1f1;
+}
+
+.content-table tbody tr:nth-of-type(even) {
+    background-color: #ffffff;
+}
+
+.content-table tbody tr:last-of-type {
+    border-bottom: 1px solid #f1f1f1;
+}
+
+.content-table tbody tr.active-row {
+    color: #080808;
+}
+
+.topsecmaincls h6 {
+    font-family: sans-serif;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 16px;
+    margin-top: 95px;
+}
+
+.input-box {
+    margin-top: 78px;
+    position: relative;
+    height: 60px;
+    width: 100%;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.input-box span,
+.input-box .button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.input-box span {
+    left: 12px;
+    font-size: 30px;
+    color: #707070;
+}
+
+.input-box input {
+    height: 100%;
+    width: 100%;
+    outline: none;
+    font-size: 14px;
+    font-weight: 400;
+    border: none;
+    padding: 0 78px 0 46px;
+    background-color: transparent;
+}
+
+.input-box .button {
+    right: 12px;
+    font-size: 15px;
+    font-weight: 400;
+    color: #fff;
+    border: none;
+    padding: 9px 10px;
+    border-radius: 6px;
+    background-color: #1887ff;
+    cursor: pointer;
+}
+
+.input-box .button:active {
+    transform: translateY(-50%) scale(0.98);
+}
+
+@media screen and (max-width: 500px) {
+    .input-box {
+        height: 66px;
+        margin: 0 8px;
+    }
+    .input-box span {
+        left: 12px;
+        font-size: 25px;
+    }
+    .input-box input {
+        padding: 0 112px 0 50px;
+    }
+    .input-box .button {
+        right: 12px;
+        font-size: 14px;
+        padding: 8px 18px;
+    }
+}
+
+/*topsec css end*/
+
+/*top form css start*/
+
+.sploffimg {
+    margin-left: -24px;
+    margin-top: 10px;
+    transform: rotate(19deg);
+    width: 154px;
+}
+
+.topsecmaincls {
+    margin-bottom: 100px;
+}
+
+#topsecmainclspara {
+    font-family: sans-serif;
+    font-size: 15px;
+    line-height: 27px;
+    letter-spacing: .042em;
+    color: #000;
+    text-transform: capitalize;
+    text-align: justify;
+}
+
+.topsecmaincls p a {
+    color: #FF9800;
+    font-weight: 600;
+}
+
+.topform {
+    padding: 20px;
+    position: relative;
+    /* left: 50%;
+    top: 53%;*/
+    /*    transform: translate(-50%, -50%);*/
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-size: cover;
+    background-image: url(../ourproimg/Our-Recent-Projects.png);
+    -webkit-box-shadow: 2px 1px 21px -9px rgba(0, 0, 0, 0.38);
+    -moz-box-shadow: 2px 1px 21px -9px rgba(0, 0, 0, 0.38);
+    box-shadow: 2px 1px 21px -9px rgba(0, 0, 0, 0.38);
+}
+
+.topform input[type=text],
+.topform input[type=email],
+.topform input[type=date],
+.topform input[type=number],
+.topform select,
+.topform textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 8px 0;
+    border: none;
+    background: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    opacity: 1;
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
+}
+
+.topform #countrycode {
+    width: 18%;
+    padding: 10px;
+    margin: 5px 0 8px 0;
+    border: none;
+    background: #fff;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
+}
+
+.topform input[type=number] {
+    width: 78%;
+    padding: 10px;
+    margin: 5px 0 8px 0;
+    border: none;
+    background: #fff;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.topform input[type=text]:focus,
+.topform input[type=email]:focus,
+.topform input[type=number]:focus,
+.topform select:focus,
+.topform textarea:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+.topform label {
+    font-family: sans-serif;
+    font-size: 15px;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+
+.projectprice {
+    background-color: #FF9800;
+    color: white;
+    padding: 12px 15px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+    font-weight: 600;
+    font-size: 16px;
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+    opacity: 1;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.projectdiscuss {
+    background-color: #007bff;
+    color: white;
+    padding: 12px 15px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+    font-weight: 600;
+    font-size: 16px;
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+    opacity: 1;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.topform button:hover {
+    opacity: 1;
+}
+
+@media screen and (max-width: 300px) {
+    .signupbtn {
+        width: 100%;
+    }
+}
+
+.topform h6 {
+    font: 700 350% "Open Sans", sans-serif;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    text-transform: capitalize;
+    font-style: italic;
+    color: #080808;
+    text-align: justify;
+    text-transform: uppercase;
+    line-height: 27px;
+}
+
+.topform h5 {
+    font-size: 40px;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+    font-weight: 700;
+    font-family: 'FontAwesome';
+    font-style: oblique;
+    text-align: center;
+    color: #1887ff;
+}
+
+/*.topform h5 span{
+
+ color: #ffa218;
+
+}*/
+
+/*top form css end*/
+
+.bg-gray-950 {
+    /*display: flex;*/
+    /*padding:0px;*/
+    transition: all 250ms ease-out;
+    transform: translate3d(0, 0, 0);
+    background: #FFFFFF;
+    box-shadow: 0 8px 16px -4px rgba(0, 0, 0, 0.1);
+    border-radius: 16px;
+    margin-top: 10px;
+    margin-bottom: 35px;
+}
+
+.img-overlay {
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+}
+
+.ourprojectimg {
+    width: 100%;
+    height: 330px;
+    margin-top: 0px;
+    border-radius: 25px;
+    padding: 10px;
+}
+
+.ourprojectmain {
+    padding: 80px 30px;
+    background-color: #e1eefb;
+}
+
+.ourprojectmain h1 {
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 5px;
+    position: relative;
+    padding: 0;
+    margin-bottom: 50px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+    font-size: 50px;
+    color: #080808;
+    -webkit-transition: all 0.4s ease 0s;
+    -o-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+}
+
+.ourprojectmain h1:before {
+    width: 28px;
+    height: 5px;
+    display: block;
+    content: "";
+    position: absolute;
+    bottom: -2px;
+    left: 50%;
+    margin-left: -14px;
+    background-color: #007bff;
+}
+
+.ourprojectmain h1:after {
+    width: 100px;
+    height: 1px;
+    display: block;
+    content: "";
+    position: relative;
+    margin-top: 25px;
+    left: 50%;
+    margin-left: -50px;
+    background-color: #007bff;
+    margin-bottom: 15px;
+}
+
+.ourprojectmain h4 {
+    font: 700 350% "Open Sans", sans-serif;
+    margin-top: 10px;
+    font-size: 20px;
+    color: #007bff;
+    text-align: center;
+    text-transform: capitalize;
+    line-height: 35px;
+}
+
+.ourprojectmain p {
+    font-family: sans-serif;
+    font-size: 15px;
+    color: #212529;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+.ourprolast h5 {
+    font-weight: 600;
+    margin-top: 35px;
+    line-height: 50px;
+    font-size: 30px;
+    text-align: center;
+    font-style: italic;
+    font-family: 'FontAwesome';
+}
+
+.ourprolast h5 a {}
+
+/*open chat form start*/
+
+.formcontainer {
+    background-color: #e1eefb;
+}
+
+.opencchat-extrapara p {
+    font-family: sans-serif;
+    text-align: justify;
+    font-size: 17px;
+    line-height: 30px;
+}
+
+.opencchat-list {
+    margin-bottom: 30px;
+}
+
+.opencchat-list ul {
+    font-style: italic;
+    font-family: 'Open Sans';
+    text-transform: capitalize;
+}
+
+.numbold {
+    color: #1daa6f;
+}
+
+#majorhiglite {
+    text-decoration-line: underline;
+}
+
+#reportimg {
+    margin-top: -30px;
+    width: 357px;
+    height: 230px;
+}
+
+.opencchat-list li {
+    margin-bottom: 15px;
+}
+
+.jurnlcmbtre3 {
+    background: #fff0c5;
+    border-radius: 12px;
+    padding: 10px 15px;
+}
+
+#fem select {
+    margin-left: -12px;
+    padding: 0px 0px;
+    height: 38px;
+    margin-top: 0px;
+}
+
+.jurnlcmbtre3 h6 {
+    text-decoration-line: underline;
+    color: #000;
+    font-weight: bold;
+    margin-top: -23px;
+    font-family: sans-serif;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+option {
+    background: white;
+    color: black;
+}
+
+.jurnlcmbtre3 h3 {
+    text-align: center;
+    font-family: sans-serif;
+    text-transform: capitalize;
+    font-size: 38px;
+    font-weight: 800;
+    color: #0e34ab;
+    line-height: 53px;
+    padding: 0px 20px;
+}
+
+.jurnlcmbtre3 p {
+    padding: 0 134px 0px 243px;
+    text-align: justify;
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 30px;
+    margin-bottom: 0px;
+}
+
+.offerper_img {
+    width: 240px;
+    margin-top: -122px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+}
+
+#fem {
+    width: 90%;
+    margin: 0px auto;
+    background: #ffebb1;
+}
+
+#fem input[type="number"] {
+    margin-left: -48px;
+    margin-top: 0px;
+    width: 160px;
+}
+
+#fem label {
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+#fem button {
+    margin: 14px 0px 14px 330px;
+    height: 59px;
+    width: 150%;
+    box-shadow: 3px 3px 1px 1px rgba(125, 125, 125, 0.36);
+    font-weight: 800;
+    font-size: 20px;
+    background: linear-gradient(to right, #0e34ab94, #0e34abe0, #0e34ab);
+    color: #ffffff;
+}
+
+#majorsteps {
+    margin: -8px 0 12px 26px;
+    line-height: 30px;
+    font-weight: bold;
+}
+
+/*open chat form end */
+
+@media (min-width: 321px) and (max-width: 375px) {
+    .invitefrnfimg {
+        width: 320px;
+    }
+    .wrapinvite {
+        padding: 1em 1.5em;
+    }
+    .wrapinvite h2 {
+        line-height: 36px;
+        font-size: 19px;
+        margin-top: 0px;
+        margin-bottom: 15px;
+    }
+    .wrapinvite p {
+        font-size: 18px;
+    }
+    .formpopup {
+        display: none;
+    }
+    .sploffimg {
+        margin-left: 67px;
+        margin-top: -20px;
+        transform: rotate(359deg);
+    }
+    .projectdiscuss {
+        padding: 8px 10px;
+    }
+    .projectprice {
+        padding: 8px 10px;
+    }
+    /*clientback*/
+    .contactfield_client {
+        padding: 0px 0px 0px 0px;
+    }
+    .contactfield_client h6 {
+        text-align: justify;
+        font-size: 18px;
+        line-height: 32px;
+    }
+    .contactfield_client h3 {
+        font-size: 32px;
+    }
+    .contactfield_client p {
+        font-size: 19px;
+        text-align: justify;
+        line-height: 36px;
+    }
+    button.contact_form_submit {
+        padding: 10px 20px;
+        width: 80%;
+        margin-bottom: 20px;
+        margin-left: 45px;
+        margin-top: 0px;
+        font-size: 15px;
+    }
+    .area {
+        background: linear-gradient(to top right, #ff9800 -5%, #845037 100%);
+        width: 100%;
+        height: 100%;
+        display: none;
+    }
+    /*clientbackend*/
+    .topform {
+        background-size: cover;
+        background-image: url(../ourproimg/Our-Recent-Projects.png);
+        padding: 10px;
+    }
+    #tablealgin {
+        margin-top: 50px;
+        width: 300px;
+        overflow-x: auto;
+    }
+    .topsecmaincls h6 {
+        margin-top: 50px;
+    }
+    .topform h5 {
+        font-size: 26px;
+        margin-bottom: 8px;
+    }
+    .topform h6 {
+        font-size: 14px;
+        margin-top: 5px;
+        line-height: 22px;
+    }
+    .content-table thead h3 {
+        font-size: 22px;
+    }
+    .topform input[type=text],
+    .topform input[type=email],
+    .topform input[type=date],
+    .topform input[type=number],
+    .topform select,
+    .topform textarea {
+        padding: 8px;
+        margin: 3px 0 0px 0;
+    }
+    .bg-gray-950 {
+        display: block;
+    }
+    .ourprojectimg {
+        width: 100%;
+        height: 280px;
+    }
+    .ourprojectmain {
+        padding: 70px 10px;
+        margin-top: -16px;
+    }
+    .ourprojectmain h1 {
+        font-size: 27px;
+        margin-top: 30px;
+    }
+    .ourprojectmain h4 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .jurnlcmbtre3 h3 {
+        font-size: 23px;
+        line-height: 40px;
+        text-align: justify;
+    }
+    .jurnlcmbtre3 p {
+        padding: 0 0px;
+        text-align: justify;
+        font-size: 16px;
+        line-height: 30px;
+    }
+    #reportimg {
+        margin-top: -64px;
+        width: 305px;
+        height: 210px;
+    }
+    #fem {
+        width: 95%;
+        margin: 0px 7px;
+    }
+    #fem button {
+        margin: 15px 0 15px 0px;
+        height: 60px;
+        width: 98%;
+        font-size: 18px;
+    }
+    #fem select {
+        border-style: groove;
+        border-width: 2px;
+        margin-left: 0px;
+        padding: 0px 0px;
+        height: 40px;
+        width: 60px;
+        margin-top: 0px;
+    }
+    #fem input[type="number"] {
+        margin-left: 60px;
+        width: 210px;
+        margin-top: -40px;
+    }
+    .jurnlcmbtre3 h6 {
+        margin-left: 0px;
+        line-height: 30px;
+        text-align: justify;
+    }
+    .offerper_img {
+        width: 185px;
+        margin-bottom: 25px;
+        margin-left: 55px;
+        margin-top: -10px;
+    }
+    .ourprolast h5 {
+        font-weight: 600;
+        margin-top: 21px;
+        line-height: 36px;
+        font-size: 18px;
+        text-align: justify;
+        font-style: italic;
+        font-family: 'FontAwesome';
+    }
+}
+
+@media (min-width: 376px) and (max-width: 425px) {
+    .invitefrnfimg {
+        width: 320px;
+    }
+    .wrapinvite {
+        padding: 1em 1.5em;
+        margin-bottom: 155px;
+    }
+    .wrapinvite h2 {
+        line-height: 36px;
+        font-size: 19px;
+        margin-top: 0px;
+        margin-bottom: 15px;
+    }
+    .wrapinvite p {
+        font-size: 18px;
+    }
+    .formpopup {
+        display: none;
+    }
+    .sploffimg {
+        margin-left: 67px;
+        margin-top: -30px;
+        transform: rotate(359deg);
+        width: 165px;
+    }
+    /*clientback*/
+    .contactfield_client {
+        padding: 10px 40px 10px 40px;
+    }
+    .contactfield_client h6 {
+        text-align: justify;
+        font-size: 18px;
+        line-height: 32px;
+    }
+    .contactfield_client h3 {
+        font-size: 32px;
+    }
+    .contactfield_client p {
+        font-size: 19px;
+        text-align: justify;
+        line-height: 36px;
+    }
+    button.contact_form_submit {
+        padding: 10px 20px;
+        width: 80%;
+        margin-bottom: 18px;
+        margin-left: 45px;
+        margin-top: 0px;
+        font-size: 15px;
+    }
+    #clientformid {
+        margin-top: 98px;
+    }
+    .area {
+        background: linear-gradient(to top right, #ff9800 -5%, #845037 100%);
+        width: 100%;
+        height: 100%;
+        display: none;
+    }
+    /*clientbackend*/
+    .topform {
+        background-size: cover;
+        background-image: url(../ourproimg/Our-Recent-Projects.png);
+    }
+    #tablealgin {
+        width: 340px;
+        overflow-x: auto;
+        margin-top: 60px;
+    }
+    .topsecmaincls h6 {
+        margin-top: 50px;
+    }
+    .topform h5 {
+        font-size: 26px;
+    }
+    .topform h6 {
+        font-size: 14px;
+        margin-top: 0px;
+    }
+    .content-table thead h3 {
+        font-size: 22px;
+    }
+    .bg-gray-950 {
+        display: block;
+    }
+    .ourprojectimg {
+        width: 100%;
+        height: 280px;
+    }
+    .ourprojectmain {
+        padding: 70px 10px;
+        margin-top: -155px;
+    }
+    .ourprojectmain h1 {
+        font-size: 27px;
+        margin-top: 30px;
+    }
+    .ourprojectmain h4 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .jurnlcmbtre3 h3 {
+        font-size: 23px;
+        line-height: 40px;
+        text-align: justify;
+    }
+    .jurnlcmbtre3 p {
+        padding: 0 0px;
+        text-align: justify;
+        font-size: 16px;
+        line-height: 30px;
+    }
+    #reportimg {
+        margin-top: -90px;
+        width: 357px;
+        height: 230px;
+        margin-bottom: 30px;
+    }
+    #fem {
+        width: 95%;
+        margin: 0px 7px;
+    }
+    #fem button {
+        margin: 15px 0 15px 0px;
+        height: 60px;
+        width: 98%;
+        font-size: 18px;
+    }
+    #fem select {
+        border-style: groove;
+        border-width: 2px;
+        margin-left: 0px;
+        padding: 0px 0px;
+        height: 40px;
+        width: 60px;
+        margin-top: 0px;
+    }
+    #fem input[type="number"] {
+        margin-left: 60px;
+        width: 270px;
+        margin-top: -40px;
+    }
+    .jurnlcmbtre3 h6 {
+        margin-left: 0px;
+        line-height: 30px;
+        text-align: justify;
+    }
+    .offerper_img {
+        width: 185px;
+        margin-bottom: 25px;
+        margin-left: 55px;
+        margin-top: -10px;
+    }
+    .formcontainer {
+        background-color: #e1eefb;
+        margin-bottom: 150px;
+    }
+    .ourprolast h5 {
+        font-weight: 600;
+        margin-top: 21px;
+        line-height: 36px;
+        font-size: 18px;
+        text-align: justify;
+        font-style: italic;
+        font-family: 'FontAwesome';
+    }
+}
+
+@media (min-width: 426px) and (max-width: 576px) {
+    .invitefrnfimg {
+        width: 320px;
+    }
+    .wrapinvite {
+        padding: 1em 1.5em;
+        margin-bottom: 130px;
+    }
+    .wrapinvite h2 {
+        line-height: 36px;
+        font-size: 19px;
+        margin-top: 0px;
+        margin-bottom: 15px;
+    }
+    .wrapinvite p {
+        font-size: 18px;
+    }
+    .sploffimg {
+        margin-left: 140px;
+        margin-top: -20px;
+        transform: rotate(359deg);
+        width: 169px;
+    }
+    .formpopup {
+        display: none;
+    }
+    /*clientback*/
+    .contactfield_client {
+        padding: 10px 40px 10px 40px;
+    }
+    .contactfield_client h6 {
+        text-align: justify;
+        font-size: 18px;
+        line-height: 32px;
+    }
+    .contactfield_client h3 {
+        font-size: 32px;
+    }
+    .contactfield_client p {
+        font-size: 19px;
+        text-align: justify;
+        line-height: 36px;
+    }
+    button.contact_form_submit {
+        padding: 10px 20px;
+        width: 80%;
+        margin-bottom: 18px;
+        margin-left: 45px;
+        margin-top: 0px;
+        font-size: 15px;
+    }
+    #clientformid {
+        margin-top: 120px;
+    }
+    .area {
+        background: linear-gradient(to top right, #ff9800 -5%, #845037 100%);
+        width: 100%;
+        height: 100%;
+        display: none;
+    }
+    /*clientbackend*/
+    .topform {
+        background-size: cover;
+        background-image: url(../ourproimg/Our-Recent-Projects.png);
+    }
+    #tablealgin {
+        width: 500px;
+        overflow-x: auto;
+        margin-top: 50px;
+    }
+    .topsecmaincls h6 {
+        margin-top: 50px;
+    }
+    .topform h5 {
+        font-size: 26px;
+    }
+    .topform h6 {
+        font-size: 14px;
+    }
+    .content-table thead h3 {
+        font-size: 22px;
+    }
+    .bg-gray-950 {
+        display: block;
+    }
+    .ourprojectimg {
+        width: auto;
+        height: auto;
+        margin-left: 100px;
+    }
+    .ourprojectmain {
+        padding: 10px 10px;
+        margin-top: -130px;
+    }
+    .ourprojectmain p {
+        padding: 10px;
+    }
+    .ourprojectmain h1 {
+        font-size: 27px;
+        margin-top: 30px;
+    }
+    .ourprojectmain h4 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .jurnlcmbtre3 h3 {
+        font-size: 25px;
+        line-height: 40px;
+        text-align: justify;
+    }
+    .jurnlcmbtre3 p {
+        padding: 0 0px;
+        text-align: justify;
+        font-size: 16px;
+        line-height: 30px;
+    }
+    #reportimg {
+        margin-top: -90px;
+        margin-left: 100px;
+        width: 357px;
+        height: 230px;
+        margin-bottom: 30px;
+    }
+    #fem {
+        width: 95%;
+        margin: 0px 7px;
+    }
+    #fem button {
+        margin: 15px 0 15px 0px;
+        height: 60px;
+        width: 98%;
+        font-size: 18px;
+    }
+    #fem select {
+        border-style: groove;
+        border-width: 2px;
+        margin-left: 0px;
+        padding: 0px 0px;
+        height: 40px;
+        width: 60px;
+        margin-top: 0px;
+    }
+    #fem input[type="number"] {
+        margin-left: 60px;
+        width: 410px;
+        margin-top: -40px;
+    }
+    .jurnlcmbtre3 h6 {
+        margin-left: 0px;
+        line-height: 30px;
+        text-align: justify;
+    }
+    .offerper_img {
+        width: 185px;
+        margin-bottom: 25px;
+        margin-left: 160px;
+        margin-top: -34px;
+    }
+    .form-group label {
+        float: left;
+        color: #000;
+        margin-top: 0px;
+        display: table-cell;
+        position: relative;
+    }
+    .formcontainer {
+        background-color: #e1eefb;
+        margin-bottom: 128px;
+    }
+    .ourprolast h5 {
+        font-weight: 600;
+        margin-top: 21px;
+        line-height: 36px;
+        font-size: 18px;
+        text-align: justify;
+        font-style: italic;
+        font-family: 'FontAwesome';
+    }
+}
+
+@media (min-width: 577px) and (max-width: 991px) {
+    .invitefrnfimg {
+        width: 320px;
+    }
+    .wrapinvite {
+        padding: 1em 1.5em;
+        margin-bottom: 55px;
+    }
+    .wrapinvite h2 {
+        line-height: 36px;
+        font-size: 19px;
+        margin-top: 0px;
+        margin-bottom: 15px;
+    }
+    .wrapinvite p {
+        font-size: 18px;
+        text-align: center;
+    }
+    .sploffimg {
+        margin-left: 325px;
+        margin-top: -20px;
+        transform: rotate(359deg);
+        width: 185px
+    }
+    .input-box {
+        margin-top: 20px;
+    }
+    #tablealgin {
+        margin-top: 100px;
+    }
+    .topsecmaincls h6 {
+        margin-top: 50px;
+    }
+    /*clientback*/
+    .contactfield_client h6 {
+        text-align: justify;
+        font-size: 18px;
+        line-height: 32px;
+    }
+    .contactfield_client h3 {
+        font-size: 32px;
+    }
+    .contactfield_client p {
+        font-size: 19px;
+        text-align: justify;
+        line-height: 36px;
+    }
+    button.contact_form_submit {
+        padding: 10px 20px;
+        width: 80%;
+        margin-bottom: 18px;
+        margin-left: 45px;
+        margin-top: 0px;
+        font-size: 15px;
+    }
+    #clientformid {
+        margin-top: 120px;
+    }
+    /*clientbackend*/
+    .topform {
+        background-size: cover;
+        background-image: url(../ourproimg/Our-Recent-Projects.png);
+    }
+    .ourprojectmain {
+        padding: 10px 50px;
+        margin-top: -60px;
+    }
+    .ourprojectimg {
+        width: 100%;
+        height: 330px;
+        margin-top: 0px;
+        border-radius: 25px;
+        padding: 10px;
+    }
+    .jurnlcmbtre3 h3 {
+        font-size: 38px;
+        line-height: 55px;
+        text-align: justify;
+    }
+    .jurnlcmbtre3 p {
+        padding: 0 0px;
+        text-align: justify;
+        font-size: 16px;
+        line-height: 30px;
+    }
+    #fem {
+        width: 95%;
+        margin: 0px 7px;
+    }
+    #fem button {
+        margin: 15px 0 15px 0px;
+        height: 60px;
+        width: 98%;
+        font-size: 18px;
+    }
+    #fem button {
+        margin: 15px 0 15px 0px;
+        height: 60px;
+        width: 98%;
+        font-size: 18px;
+    }
+    #fem select {
+        border-style: groove;
+        border-width: 2px;
+        margin-left: 0px;
+        padding: 0px 0px;
+        height: 40px;
+        width: 60px;
+        margin-top: 0px;
+    }
+    #fem input[type="number"] {
+        margin-left: 60px;
+        width: 810px;
+        margin-top: -40px;
+    }
+    .jurnlcmbtre3 h6 {
+        margin-left: 0px;
+        line-height: 30px;
+        margin-top: -30px;
+    }
+    .offerper_img {
+        width: 185px;
+        margin-bottom: 25px;
+        margin-left: 355px;
+        margin-top: -10px;
+    }
+    .formcontainer {
+        background-color: #e1eefb;
+        margin-bottom: 59px;
+    }
+}
+
+@media (min-width: 1000px) and (max-width: 1300px) {
+    .wrapinvite h2 {
+        font-size: 41px;
+        margin-top: 15px;
+        margin-bottom: 25px;
+    }
+    .invitefrnfimg {
+        width: 345px;
+        margin-top: 0px;
+    }
+    .wrapinvite p {
+        color: #423e52;
+        font-size: 22px;
+    }
+    .topform {
+        padding: 13px;
+    }
+    .topform h5 {
+        font-size: 37px;
+        margin-bottom: 10px;
+    }
+    #clientformid {
+        margin-top: 120px;
+    }
+    #clientformidsec {
+        margin-top: 120px;
+    }
+    .ourprojectmain {
+        padding: 10px 12px;
+        margin-top: -20px;
+    }
+    .ourprojectmain h4 {
+        font: 700 350% "Open Sans", sans-serif;
+        margin-top: 10px;
+        font-size: 18px;
+    }
+    .formcontainer {
+        background-color: #e1eefb;
+        margin-bottom: 18px;
+    }
+}
+
+@media (min-width: 1920px) {
+    .invitefrnfimg {
+        width: 395px;
+        margin-top: 0px;
+    }
+    .wrapinvite h2 {
+        line-height: 70px;
+        font-size: 55px;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+    .wrapinvite p {
+        font-size: 30px;
+    }
+    .wrapinvite {
+        padding: 1em 9.5em;
+    }
+    .formpopup_show {
+        animation-name: fadeInDown;
+        animation-duration: 0.7s;
+        animation-timing-function: cubic-bezier(0.66, 0.12, 0.49, 0.89);
+        opacity: 1;
+        height: auto;
+        width: 600px;
+    }
+    .contactfield_client {
+        padding: 30px 60px 30px 100px;
+    }
+    .ourprojectmain h4 {
+        font: 700 350% "Open Sans", sans-serif;
+        margin-top: 10px;
+        font-size: 28px;
+        color: #007bff;
+        text-align: center;
+        text-transform: capitalize;
+        line-height: 45px;
+    }
+    .ourprojectmain p {
+        font-family: sans-serif;
+        font-size: 15px;
+        color: #212529;
+        line-height: 28px;
+        text-align: justify;
+    }
+    .ourprojectimg {
+        width: 85%;
+        height: 330px;
+        margin-top: 0px;
+        border-radius: 25px;
+        padding: 10px;
+    }
+    .ourprojectmain {
+        padding: 80px 65px;
+        background-color: #e1eefb;
+    }
+}

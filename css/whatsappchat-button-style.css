@@ -1,0 +1,609 @@
+/*chat button home page*/
+
+#chatwhastappbtnhome {
+    font-weight: 800;
+    border-radius: 35px;
+    padding: 6px 19px;
+    font-size: 15px;
+    margin: 0 0 0 -22px;
+    width: 110%;
+    text-transform: capitalize;
+    background: linear-gradient(to right, #024845, #0f514e, #306966);
+    color: #ffffff;
+    box-shadow: 0px 3px 5px rgb(0 0 0 / 50%);
+}
+
+/**/
+
+/*Chat button contact us Page*/
+
+#chatvia_whastappbtn {
+    font-weight: 800;
+    border-radius: 35px;
+    padding: 6px 19px;
+    font-size: 15px;
+    margin: -10px 0 -13px 100px;
+    width: 59%;
+    text-transform: capitalize;
+    background: linear-gradient(to right, #e0ebaa, #c5db5a, #acbe51);
+    color: #000000;
+    box-shadow: 0px 3px 5px rgb(0 0 0 / 50%);
+}
+
+/*Chat button contact us Page*/
+
+/*Chat button review paper writing and litearature Writing Page*/
+
+#whastappreviewppriting {
+    font-weight: 800;
+    border-radius: 12px;
+    padding: 6px 19px;
+    font-size: 15px;
+    margin: 0 0 0 -22px;
+    width: 40%;
+    text-transform: capitalize;
+    background: linear-gradient(to right, #feb00d, #ffab08d9, #fcb7129e);
+    color: #000;
+    box-shadow: 0px 3px 5px rgb(0 0 0 / 50%);
+}
+
+.whastappliteraturriting {
+    font-weight: 800;
+    border-radius: 12px;
+    padding: 6px 19px;
+    font-size: 20px;
+    margin: 0 0 0 -22px;
+    width: 40%;
+    text-transform: capitalize;
+    background: linear-gradient(to right, #e0ebaa, #c5db5a, #acbe51);
+    color: #000;
+    box-shadow: 0px 3px 5px rgb(0 0 0 / 50%);
+}
+
+#whathesiswriting {
+    background: linear-gradient(to right, #e0ebaa, #c5db5a, #acbe51);
+    color: #000;
+    margin: 16px 0 0 -22px;
+    width: 47%;
+}
+
+#formatforphdchatbtn {
+    background: linear-gradient(to right, #e0ebaa, #c5db5a, #acbe51);
+    color: #000;
+}
+
+#researchmtlogypgebtn {
+    margin: 30px 0 50px 0;
+    font-size: 20px;
+}
+
+#researchmtlogypgebtn i {
+    font-size: 20px;
+}
+
+#researchproposalwbtn {
+    margin: 30px 0 50px 0;
+    background: linear-gradient(to right, #d6a84b, #d5a243, #ffc800);
+}
+
+#thseseditwbtn {
+    margin: 30px 0 50px 0;
+    background: linear-gradient(to right, #d6a84b, #d5a243, #ffc800);
+}
+
+#manuscrptedwbtn {
+    margin: 30px 0 10px 0;
+    width: 28%;
+}
+
+#prffredbtn {
+    margin: 30px 0 30px 0;
+    width: 34%;
+}
+
+#jrunalrevwhatsbtn {
+    margin: 30px 0 30px 0;
+    width: 34%;
+}
+
+#rimplemtwhatsbtn {
+    padding: 8px 5px 7px 7px;
+    margin: 30px 0 30px 0;
+    width: 41%;
+    box-shadow: 0px 3px 5px rgb(213 58 58);
+}
+
+#matlbprjtwhatsbtn {
+    padding: 8px 5px 7px 7px;
+    margin: 30px 0 30px 0;
+    width: 30%;
+}
+
+#javaprtwhatsbtn {
+    padding: 8px 5px 7px 7px;
+    margin: 0px 0 38px 0;
+    width: 30%;
+}
+
+#pythonprjtwhatsbtn {
+    padding: 8px 5px 7px 14px;
+    margin: 19px 11px 32px 32px;
+    width: 51%;
+}
+
+#scijrnindexwhatsbtn {
+    padding: 0px 5px 0px 14px;
+    margin: 26px 11px 14px -85px;
+    width: 93%;
+}
+
+#webofscncewhatsbtn {
+    padding: 0px 5px 0px 14px;
+    margin: 1px 0px 20px -66px;
+    width: 46%;
+    background: linear-gradient(to right, #69bb89, #37a571, #07b17b);
+    color: #fff;
+}
+
+#ugcewhatsbtn {
+    padding: 0px 5px 0px 14px;
+    margin: 1px 0px 20px -66px;
+    width: 78%;
+    background: linear-gradient(to right, #69bb89, #37a571, #07b17b);
+    color: #fff;
+}
+
+#q1jnlwhatsbtn {
+    padding: 0px 0px 0px 0px;
+    margin: 20px 11px 20px 200px;
+    /* left: 0%; */
+    width: 27%;
+    background: linear-gradient(to right, #baab18, #cba700, #cba700);
+    color: #fff;
+}
+
+#annaunivwhtsbtn {
+    padding: 0;
+    margin: 5px 0 9px 0;
+    width: 81%;
+    background: linear-gradient(to right, #36556a, #365b6a, #353866);
+    color: #fff;
+    box-shadow: none;
+}
+
+#annaunivwhtsbtn:hover {
+    box-shadow: 0px 3px 5px rgb(0 0 0 / 50%);
+}
+
+#annauniv2whtsbtn {
+    padding: 0;
+    margin: 0px 0 9px 0;
+    width: 79%;
+    font-size: 16px;
+    background: linear-gradient(to right, #36556a, #365b6a, #353866);
+    color: #fff;
+    box-shadow: none;
+}
+
+#annauniv2whtsbtn:hover {
+    box-shadow: 0px 3px 5px rgb(0 0 0 / 50%);
+}
+
+#phdguidservwhtsbtn {
+    width: 30%;
+    background: linear-gradient(to right, #36556a, #365b6a, #353866);
+    color: white;
+}
+
+#plagewhatsbtn {
+    padding: 8px 5px 8px 14px;
+    margin: 1px 0px 20px 0px;
+    width: 100%;
+    background: linear-gradient(to right, #69bb89, #37a571, #07b17b);
+    color: #fff;
+}
+
+/*Chat button*/
+
+@media(min-width: 321px) and (max-width: 375px) {
+    .round-shadow {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width: 100%;
+        font-size: 18px;
+    }
+    #chatwhastappbtnhome {
+        padding: 4px 0px;
+        font-size: 15px;
+        margin: 0 0 0 0;
+        width: 100%;
+    }
+    #chatvia_whastappbtn {
+        border-radius: 12px;
+        padding: 6px 19px;
+        font-size: 17px;
+        margin: -10px 0 -13px 0px;
+        width: 100%;
+    }
+    #whastappreviewppriting {
+        width: 100%;
+    }
+    .whastappliteraturriting {
+        font-size: 15px;
+        margin: 0 0 0 0px;
+        width: 100%;
+    }
+    #webofscncewhatsbtn {
+        width: 88%;
+    }
+    #whathesiswriting {
+        width: 89%;
+        margin: 13px;
+    }
+    #q1jnlwhatsbtn {
+        margin: 20px 11px 20px 0px;
+        width: 100%;
+    }
+    #jrunalrevwhatsbtn {
+        margin: 30px 0 30px 0;
+        width: 80%;
+    }
+    #manuscrptedwbtn {
+        width: 100%;
+    }
+    #prffredbtn {
+        width: 100%;
+    }
+    #rimplemtwhatsbtn {
+        width: 100%;
+    }
+    #matlbprjtwhatsbtn {
+        width: 100%;
+    }
+    #javaprtwhatsbtn {
+        width: 100%;
+    }
+    #pythonprjtwhatsbtn {
+        width: 100%;
+    }
+    #phdguidservwhtsbtn {
+        width: 96%;
+        margin: 18px 0 0 0;
+    }
+    #plagewhatsbtn {
+        margin: 25px 0px 20px 0px;
+        width: 100%;
+    }
+}
+
+@media(min-width: 376px) and (max-width: 425px) {
+    .whastappliteraturriting {
+        font-size: 15px;
+        margin: 0 0 0 0px;
+        width: 100%;
+    }
+    #whastappreviewppriting {
+        margin: 0 0 0 0px;
+        width: 100%;
+    }
+    #chatwhastappbtnhome {
+        padding: 6px 19px;
+        font-size: 15px;
+        margin: 0 0 0 0px;
+        width: 100%;
+    }
+    .round-shadow {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width: 100%;
+        font-size: 18px;
+    }
+    #chatvia_whastappbtn {
+        border-radius: 12px;
+        padding: 6px 19px;
+        font-size: 17px;
+        margin: -10px 0 -13px 0px;
+        width: 100%;
+    }
+    #webofscncewhatsbtn {
+        width: 88%;
+    }
+    #q1jnlwhatsbtn {
+        margin: 20px 11px 20px 0px;
+        width: 100%;
+    }
+    #whathesiswriting {
+        width: 89%;
+        margin: 13px;
+    }
+    #jrunalrevwhatsbtn {
+        margin: 30px 0 30px 0;
+        width: 80%;
+    }
+    #manuscrptedwbtn {
+        width: 100%;
+    }
+    #prffredbtn {
+        width: 100%;
+    }
+    #rimplemtwhatsbtn {
+        width: 100%;
+    }
+    #matlbprjtwhatsbtn {
+        width: 100%;
+    }
+    #javaprtwhatsbtn {
+        width: 100%;
+    }
+    #pythonprjtwhatsbtn {
+        width: 100%;
+    }
+    #phdguidservwhtsbtn {
+        width: 96%;
+        margin: 18px 0 0 0;
+    }
+    #plagewhatsbtn {
+        margin: 25px 0px 20px 0px;
+        width: 100%;
+    }
+}
+
+@media(min-width: 426px) and (max-width: 575px) {
+    .round-shadow {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width: 100%;
+        font-size: 18px;
+    }
+    #chatvia_whastappbtn {
+        border-radius: 12px;
+        padding: 6px 19px;
+        font-size: 17px;
+        margin: -10px 0 -13px 0px;
+        width: 100%;
+    }
+    .whastappliteraturriting {
+        font-size: 16px;
+        margin: 0 0 0 0px;
+        width: 80%;
+    }
+    #whastappreviewppriting {
+        margin: 0 0 0 0px;
+        width: 100%;
+    }
+    .whastappliteraturriting {
+        font-size: 15px;
+        margin: 0 0 0 0px;
+        width: 100%;
+    }
+    #webofscncewhatsbtn {
+        width: 88%;
+    }
+    #q1jnlwhatsbtn {
+        margin: 20px 11px 20px 0px;
+        width: 100%;
+    }
+    #whathesiswriting {
+        width: 89%;
+        margin: 13px;
+    }
+    #jrunalrevwhatsbtn {
+        margin: 30px 0 30px 0;
+        width: 80%;
+    }
+    #manuscrptedwbtn {
+        width: 100%;
+    }
+    #prffredbtn {
+        width: 100%;
+    }
+    #rimplemtwhatsbtn {
+        width: 100%;
+    }
+    #matlbprjtwhatsbtn {
+        width: 100%;
+    }
+    #javaprtwhatsbtn {
+        width: 100%;
+    }
+    #pythonprjtwhatsbtn {
+        width: 100%;
+    }
+    #phdguidservwhtsbtn {
+        width: 96%;
+        margin: 18px 0 0 0;
+    }
+    #plagewhatsbtn {
+        margin: 25px 0px 20px 0px;
+        width: 100%;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .round-shadow {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width: 100%;
+        font-size: 18px;
+    }
+    #chatwhastappbtnhome {
+        padding: 4px 0px;
+        font-size: 15px;
+        margin: 0 0 0 0;
+        width: 100%;
+    }
+    #chatvia_whastappbtn {
+        border-radius: 12px;
+        padding: 6px 19px;
+        font-size: 17px;
+        margin: -10px 0 -13px 0px;
+        width: 100%;
+    }
+    #whastappreviewppriting {
+        margin: 0 0 0 0px;
+        width: 100%;
+    }
+    .whastappliteraturriting {
+        font-size: 15px;
+        margin: 0 0 0 0px;
+        width: 100%;
+    }
+    #q1jnlwhatsbtn {
+        margin: 20px 11px 20px 0px;
+        width: 100%;
+    }
+    #whathesiswriting {
+        width: 89%;
+        margin: 13px;
+    }
+    #jrunalrevwhatsbtn {
+        margin: 30px 0 30px 0;
+        width: 80%;
+    }
+    #manuscrptedwbtn {
+        width: 100%;
+    }
+    #prffredbtn {
+        width: 100%;
+    }
+    #rimplemtwhatsbtn {
+        width: 100%;
+    }
+    #matlbprjtwhatsbtn {
+        width: 100%;
+    }
+    #javaprtwhatsbtn {
+        width: 100%;
+    }
+    #pythonprjtwhatsbtn {
+        width: 100%;
+    }
+    #phdguidservwhtsbtn {
+        width: 96%;
+        margin: 18px 0 0 0;
+    }
+    #plagewhatsbtn {
+        margin: 25px 0px 20px 0px;
+        width: 100%;
+    }
+}
+
+@media(min-width: 768px) and (max-width: 991px) {
+    .round-shadow {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width: 100%;
+        font-size: 18px;
+    }
+    #chatwhastappbtnhome {
+        padding: 4px 0px;
+        font-size: 15px;
+        margin: 0 0 0 0;
+        width: 100%;
+    }
+    #whastappreviewppriting {
+        margin: 0 0 0 0px;
+        width: 100%;
+    }
+    .whastappliteraturriting {
+        font-size: 15px;
+        margin: 0 0 0 0px;
+        width: 100%;
+    }
+    #webofscncewhatsbtn {
+        width: 88%;
+    }
+    #q1jnlwhatsbtn {
+        margin: 20px 11px 20px 0px;
+        width: 100%;
+    }
+    #whathesiswriting {
+        width: 89%;
+        margin: 13px;
+    }
+    #jrunalrevwhatsbtn {
+        margin: 30px 0 30px 0;
+        width: 80%;
+    }
+    #manuscrptedwbtn {
+        width: 100%;
+    }
+    #prffredbtn {
+        width: 100%;
+    }
+    #rimplemtwhatsbtn {
+        width: 100%;
+    }
+    #matlbprjtwhatsbtn {
+        width: 100%;
+    }
+    #javaprtwhatsbtn {
+        width: 100%;
+    }
+    #pythonprjtwhatsbtn {
+        width: 100%;
+    }
+    #phdguidservwhtsbtn {
+        width: 96%;
+        margin: 18px 0 0 0;
+    }
+}
+
+@media (min-width: 1460px) and (max-width: 1600px) {
+    #whastappreviewppriting {
+        padding: 6px 19px;
+        font-size: 19px;
+        margin: 0 0 0 -22px;
+        width: 27%;
+    }
+    #manuscrptedwbtn {
+        margin: 30px 0 10px 0;
+        width: 26%;
+    }
+    #rimplemtwhatsbtn {
+        width: 100%;
+    }
+    #phdguidservwhtsbtn {
+        width: 96%;
+        margin: 18px 0 0 0;
+    }
+}
+
+@media (min-width: 1290px) and (max-width: 1440px) {
+    #webofscncewhatsbtn {
+        margin: 1px 0px 20px -114px;
+        width: 46%;
+    }
+}
+
+@media(min-width: 1920px) {
+    /*whatsappbtn review paper writing page*/
+    #whastappreviewppriting {
+        padding: 6px 19px;
+        font-size: 20px;
+        margin: 0 0 0 -22px;
+        width: 26%;
+    }
+    .whastappliteraturriting {
+        font-size: 20px;
+        margin: 0 0 0 -22px;
+        width: 27%;
+    }
+    #manuscrptedwbtn {
+        margin: 30px 0 10px -230px;
+        width: 55%;
+    }
+    #manuscrptedwbtn {
+        width: 19%;
+    }
+    #pythonprjtwhatsbtn {
+        padding: 8px 5px 7px 14px;
+        margin: 19px 11px 32px -232px;
+        width: 51%;
+    }
+    #phdguidservwhtsbtn {
+        width: 96%;
+        margin: 18px 0 0 0;
+    }
+    /*whatsappbtn review paper writing page*/
+}

@@ -1,0 +1,1732 @@
+.phdgudes-formcont {
+    width: 100%;
+    max-width: 638px;
+    background: #ffffff;
+    /*#F9F9F9#eae7e7*/
+    padding: 30px;
+    margin: 25px 0;
+    border: 0px solid #144577;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    border-radius: 25px;
+}
+
+#phdgudes-form select option {
+    background-color: white;
+}
+
+#phdgudes-form fieldset {
+    border: medium none !important;
+    margin: 0 0 5px;
+    min-width: 100%;
+    padding: 0;
+    width: 100%;
+}
+
+#phdgudes-form input[type="text"],
+#phdgudes-form input[type="email"],
+#phdgudes-form input[type="tel"],
+#phdgudes-form input[type="url"],
+#phdgudes-form input[type="number"],
+#phdgudes-form input[type="phone"],
+#phdgudes-form input[type="date"],
+#phdgudes-form textarea {
+    width: 100%;
+    border: 1px solid #CCC;
+    background: #FFF;
+    margin: 0 0 5px;
+    padding: 5px;
+}
+
+#phdgudes-form select {
+    width: 100%;
+    border: 1px solid #CCC;
+    background: #FFF;
+    margin: 0 0 5px;
+    padding: 1px;
+    text-align: center;
+    line-height: 31px;
+    font-size: 16px;
+    font-family: 'Hind', sans-serif;
+}
+
+.phdgudes-radbutgroup {
+    display: flex;
+}
+
+.phdgudes-radbut {
+    /*float: left;*/
+    /* margin: 0 5px 0 0;*/
+    width: 100px;
+    height: 40px;
+    position: relative;
+}
+
+.phdgudes-radbut label,
+.phdgudes-radbut input {
+    /*display: block;*/
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.phdgudes-subtbutn {
+    padding: 9px;
+    width: 100%;
+    border-radius: 9px;
+    color: white;
+    background-color: #0E52B7;
+    /*#2d7eff*/
+    border: 5px solid transparent;
+    transition: 0.1s ease;
+    border-radius: 50px;
+    font-size: 16px;
+    font-weight: 650;
+    text-transform: uppercase;
+}
+
+.phdgudes-subtbutn:hover {
+    color: #0E52B7;
+    /*#2d7eff*/
+    background-color: white;
+    transform: scale(1.0);
+    border: 5px solid #ffa607;
+    /*#2d7eff*/
+}
+
+.phdgudes-groupcont label {
+    font-size: 15.3px;
+    font-weight: 550;
+    font-family: 'Hind', sans-serif;
+    text-transform: capitalize;
+}
+
+.phdgudes-radbut input[type="radio"] {
+    opacity: 0.011;
+    z-index: 100;
+}
+
+.phdgudes-radbut input[type="radio"]:checked+label {
+    background: #ffa607;
+    /*#20b8be*/
+    border-radius: 4px;
+}
+
+.phdgudes-radbut label {
+    cursor: pointer;
+    z-index: 1;
+    line-height: 1.8em;
+}
+
+.phdgudes-contime {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    /*width:250px;*/
+    /*height:40px;*/
+    /*border: 1px solid #CCC;*/
+    z-index: 0;
+}
+
+.html,
+body {
+    overflow-x: hidden;
+}
+
+.phdgudes-conoption {
+    padding: 0 30px 0 10px;
+    min-height: 35px;
+    display: flex;
+    align-items: center;
+    background: #bfbfbf;
+    border-top: #9e9997 solid 1px;
+    /*#222*/
+    position: absolute;
+    top: 0;
+    width: 100%;
+    pointer-events: none;
+    order: 2;
+    z-index: 1;
+    transition: background .4s ease-in-out;
+    box-sizing: border-box;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.phdgudes-conoption:hover {
+    background: #fff;
+}
+
+.phdgudes-contime:focus .phdgudes-conoption {
+    position: relative;
+    pointer-events: all;
+}
+
+.phdgudes-contime input {
+    opacity: 0;
+    position: absolute;
+    left: -99999px;
+}
+
+.phdgudes-contime input:checked+label {
+    order: 1;
+    z-index: 1;
+    background: #fff;
+    border-top: none;
+    position: relative;
+}
+
+.phdgudes-contime input:checked+label:after {
+    content: '';
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid white;
+    position: absolute;
+    right: 10px;
+    top: calc(50% - 2.5px);
+    pointer-events: none;
+    z-index: 3;
+}
+
+.phdgudes-contime input:checked+label:before {
+    position: absolute;
+    right: 0;
+    height: 40px;
+    width: 40px;
+    content: '';
+    background: #fff;
+}
+
+.ui-datepicker table {
+    background-color: #ababab;
+    color: black;
+}
+
+#phdgudes-date {
+    background: none;
+}
+
+.ui-state-default,
+.ui-widget-content .ui-state-default,
+.ui-widget-header .ui-state-default {
+    background: none/*{bgColorDefault}*/
+    /*{bgImgUrlDefault}*/
+    50%/*{bgDefaultXPos}*/
+    50%/*{bgDefaultYPos}*/
+    repeat-x/*{bgDefaultRepeat}*/
+    ;
+    font-weight: normal/*{fwDefault}*/
+    ;
+    color: black/*{fcDefault};; */
+    ;
+}
+
+#phdgudes-selecopt option {
+    text-align: center;
+}
+
+.phdgudes-formcont h2 {
+    font-size: 25px;
+    font-weight: 650;
+    text-align: center;
+    margin-bottom: 25px;
+    color: #0E52B7;
+}
+
+:root {
+    --pointy: 25px;
+    --padding: 1rem;
+    --fontsize: 1rem;
+}
+
+.tp-dfwv {
+    top: 56%;
+}
+
+.phdgudes-butn {
+    background: #EC9E38;
+    /*#ffa607#e1e1e7#d5d5d7*/
+    cursor: pointer;
+    flex-grow: 1;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    overflow: hidden;
+}
+
+.phdgudes-arrow {
+    clip-path: polygon(0 0%, calc(95% - var(--pointy)) 0, 100% 50%, calc(95% - var(--pointy)) 100%, 0 100%, var(--pointy) 50%);
+    padding: 5px 38px;
+    width: 748px;
+    margin-bottom: 25px;
+    margin-top: 48px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    overflow: hidden;
+    --shadowSurface: 0.5rem 0.5rem 0.5rem rgb(0 0 0 / .25);
+    --shadowInsetLight: inset 0.125rem 0.125rem 0.125rem rgb(255 255 255 / 0.5);
+    --shadowInsetDark: inset -0.067rem -0.067rem 0.089rem rgb(0 0 0 / 0.5);
+    box-shadow: var(--shadowInsetLight), var(--shadowInsetDark), var(--shadowSurface);
+}
+
+#phdgudes-offerguid {
+    font-size: 21px;
+    font-weight: 650;
+}
+
+.phdgudes-arrow p {
+    font-size: 25px;
+    font-weight: 800;
+    color: #033887;
+    /*#000000#0E52B7*/
+    /*font-family: 'Roboto Slab', serif;*/
+    font-family: 'Rubik', sans-serif;
+    margin: 5px 5px;
+}
+
+#phdgudes-servsconts {
+    color: #ffffff;
+    /*#000000#ffc800*/
+    font-size: 42px;
+    background: #033887;
+    padding: 2px 16px;
+    border-radius: 51px;
+}
+
+.phdgudes-servs ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 1rem;
+    list-style: none;
+}
+
+.phdgudes-card {
+    display: flex;
+    flex-direction: column;
+    max-width: 478px;
+    --iconS: 4rem;
+    --iconOffsetX: calc(var(--iconS) / 4);
+    --iconOffsetY: calc(var(--iconS) / 2.5);
+    margin-top: var(--iconOffsetY);
+    margin-inline: var(--iconOffsetX);
+    border-radius: 1rem;
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    background-color: #fff;
+    --shadowSurface: 0.0rem 0.0rem 0.0rem rgb(0 0 0 / .25);
+    --bgGradient: radial-gradient(circle at bottom right, transparent, rgb(182 170 170 / 10%));
+    background-image: radial-gradient( circle at calc(var(--iconOffsetX) * -1 + var(--iconS) / 2) calc(var(--iconOffsetY) * -1 + var(--iconS) / 2), rgb(0 0 0 / 0.4) calc(var(--iconS) / 2), transparent calc(var(--iconS) / 1.6)), radial-gradient( circle at calc(var(--iconOffsetX) * -1 + var(--iconS) / 2) calc(var(--iconOffsetY) * -1 + var(--iconS) / 2), var(--accent-color) calc(var(--iconS) / 1.4), transparent calc(var(--iconS) / 1.4 + 1px)), var(--bgGradient);
+    --shadowInsetLight: inset 0.25rem 0.25rem 0.25rem rgb(255 255 255 / 0.5);
+    --shadowInsetDark: inset -0.00rem -0.00rem 0.067rem rgb(0 0 0 / 0.5);
+    box-shadow: var(--shadowInsetLight), var(--shadowInsetDark), var(--shadowSurface);
+    width: 100%;
+}
+
+.phdgudes-card .phdgudes-icon {
+    width: var(--iconS);
+    aspect-ratio: 1;
+    margin-top: calc(var(--iconOffsetY) * -1);
+    margin-left: calc(var(--iconOffsetX) * -1);
+    margin-bottom: calc(var(--iconS) / 5);
+    display: grid;
+    place-items: center;
+    color: var(--accent-color);
+    font-size: calc(var(--iconS) / 3);
+    background-color: inherit;
+    border-radius: 50%;
+    box-shadow: var(--shadowInsetLight), var(--shadowInsetDark);
+    background-image: var(--bgGradient);
+    overflow: hidden;
+}
+
+.phdgudes-card .phdgudes-title {
+    font-size: 18px;
+    font-weight: 650;
+    color: #033887;
+    /*var(--accent-color)*/
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: -18px;
+    margin-bottom: -8px;
+    font-family: 'Rubik', sans-serif;
+}
+
+.phdgudes-icon i {
+    margin-left: -18px;
+    font-size: 30px;
+}
+
+.phdgudes-card .phdgudes-content {
+    padding: 25px;
+    padding-bottom: 25px;
+    font-size: 15px;
+    text-align: justify;
+    font-family: 'Hind', sans-serif;
+}
+
+/*body*/
+
+/*{*/
+
+/*    padding:0;*/
+
+/*    overflow:hidden;*/
+
+/*}*/
+
+/*.scroll-wrapper {*/
+
+/*  width: 100vw;*/
+
+/*  height: 100vh;*/
+
+/*  overflow-y: auto;*/
+
+/*  overflow-x: hidden; */
+
+/*perspective: 1px;*/
+
+/*transform-style: preserve-3d;*/
+
+/*}*/
+
+.phdgudes-parthree {
+    overflow: hidden;
+    z-index: 999;
+}
+
+#phdgudes-linkcont {
+    margin-top: -8px;
+    text-align: -webkit-center;
+    background-color: blue;
+    color: #040404;
+    font-weight: 650;
+    animation: winking 1s linear infinite;
+    overflow: hidden;
+    z-index: 99;
+    font-family: 'Rubik';
+}
+
+@keyframes winking {
+    10% {
+        opacity: 0.9;
+    }
+    20% {
+        opacity: 0.7;
+    }
+    30% {
+        opacity: 0.9;
+    }
+    40% {
+        opacity: 0.7;
+    }
+    50% {
+        opacity: 0.9;
+    }
+    60% {
+        opacity: 0.7;
+    }
+    70% {
+        opacity: 0.9;
+    }
+    80% {
+        opacity: 0.7;
+    }
+    90% {
+        opacity: 0.9;
+    }
+    100% {
+        opacity: 0.7;
+    }
+}
+
+.phdgudes-slider,
+.phdgudes-slider>div {
+    /* Images default to Center Center. Maybe try 'center top'? */
+    background-position: 100% 0;
+    display: block;
+    width: 100%;
+    height: 325px;
+    /* height: 100vh; */
+    /* If you want fullscreen */
+    position: relative;
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-color: #000;
+    overflow: hidden;
+    -moz-transition: transform .4s;
+    -o-transition: transform .4s;
+    -webkit-transition: transform .4s;
+    transition: transform .4s;
+    z-index: 0;
+    border: 3px solid #c1c1c1;
+    border-radius: 25px;
+}
+
+.phdgudes-slider>div {
+    position: absolute;
+}
+
+.phdgudes-slider>i {
+    color: #5bbd72;
+    position: absolute;
+    font-size: 60px;
+    margin: 20px;
+    top: 40%;
+    text-shadow: 0 10px 2px #223422;
+    transition: .3s;
+    width: 30px;
+    padding: 10px 13px;
+    background: #fff;
+    background: rgba(255, 255, 255, .3);
+    cursor: pointer;
+    line-height: 0;
+    box-sizing: content-box;
+    border-radius: 3px;
+    z-index: 4;
+}
+
+.phdgudes-slider>i svg {
+    margin-top: 3px;
+}
+
+.phdgudes-slider>.left {
+    left: -100px;
+}
+
+.phdgudes-slider>.right {
+    right: -100px;
+}
+
+.phdgudes-slider:hover>.left {
+    left: 0;
+}
+
+.phdgudes-slider:hover>.right {
+    right: 0;
+}
+
+.phdgudes-slider>i:hover {
+    background: #fff;
+    background: rgba(255, 255, 255, .8);
+    transform: translateX(-2px);
+}
+
+.phdgudes-slider>i.right:hover {
+    transform: translateX(2px);
+}
+
+.phdgudes-slider>i.right:active,
+.phdgudes-slider>i.left:active {
+    transform: translateY(1px);
+}
+
+.phdgudes-slider:hover>div {
+    transform: scale(1.01);
+}
+
+.phdgudes-hoverZoomOff:hover>div {
+    transform: scale(1);
+}
+
+.phdgudes-slider>ul {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    z-index: 4;
+    padding: 0;
+    margin: 0;
+    transform: translateX(-50%);
+}
+
+.phdgudes-slider>ul>li {
+    padding: 0;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    list-style: none;
+    float: left;
+    margin: 10px 10px 0;
+    cursor: pointer;
+    border: 1px solid #fff;
+    -moz-transition: .3s;
+    -o-transition: .3s;
+    -webkit-transition: .3s;
+    transition: .3s;
+}
+
+.phdgudes-slider>ul>.phdgudes-showli {
+    background-color: #a9a9a9;
+    -moz-animation: boing .5s forwards;
+    -o-animation: boing .5s forwards;
+    -webkit-animation: boing .5s forwards;
+    animation: boing .5s forwards;
+}
+
+.phdgudes-slider>ul>li:hover {
+    background-color: #white;
+}
+
+.phdgudes-slider>.phdgudes-show {
+    z-index: 1;
+}
+
+.phdgudes-hideDots>ul {
+    display: none;
+}
+
+.phdgudes-showArrows>.left {
+    left: 0;
+}
+
+.phdgudes-showArrows>.right {
+    right: 0;
+}
+
+.phdgudes-titleBar {
+    z-index: 2;
+    display: inline-block;
+    background: rgba(0, 0, 0, .5);
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    transform: translateY(100%);
+    padding: 20px 30px;
+    transition: .3s;
+    color: #fff;
+}
+
+.phdgudes-titleBar * {
+    transform: translate(-20px, 30px);
+    transition: all 700ms cubic-bezier(0.37, 0.31, 0.2, 0.85) 200ms;
+    opacity: 0;
+}
+
+.phdgudes-titleBarTop .phdgudes-titleBar * {
+    transform: translate(-20px, -30px);
+}
+
+.phdgudes-slider:hover .phdgudes-titleBar,
+.phdgudes-slider:hover .phdgudes-titleBar * {
+    transform: translate(0);
+    opacity: 1;
+}
+
+.div {
+    overflow: hidden;
+    z-index: 999;
+}
+
+.body {
+    overflow-x: hidden;
+}
+
+.phdgudes-servs {
+    overflow: hidden;
+}
+
+.phdgudes-titleBarTop .phdgudes-titleBar {
+    top: 0;
+    bottom: initial;
+    transform: translateY(-100%);
+}
+
+.phdgudes-slider>div span {
+    display: block;
+    /*background: rgba(0,0,0,.5);*/
+    position: absolute;
+    left: 0;
+    color: #7d7d77;
+    text-align: center;
+    padding: 118px 25px;
+    width: 50%;
+    height: 100%;
+    background: linear-gradient(135deg, #fff, #fff);
+    font-weight: 550;
+    z-index: 0;
+}
+
+.phdgudes-slider>div span h2 {
+    font-size: 25px;
+    text-align: center;
+    font-weight: 650;
+    font-family: 'Calistoga', cursive;
+}
+
+@keyframes boing {
+    0% {
+        transform: scale(1.2);
+    }
+    40% {
+        transform: scale(.6);
+    }
+    60% {
+        transform: scale(1.2);
+    }
+    80% {
+        transform: scale(.8);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+#phdgudes-asst {
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    margin-right: 12px;
+    border: 5px solid #ffa607;
+}
+
+#phdgudes-subjts {
+    font-size: 16px;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 5px;
+    font-weight: 650;
+    color: #0E52B7;
+    overflow: hidden;
+    z-index: -99;
+    text-transform: capitalize;
+}
+
+#phdgudes-subjts i {
+    font-size: 15px;
+    margin-right: 5px;
+    color: #ffa607;
+    z-index: 99;
+}
+
+.phdgudes-butnconts {
+    width: 80%;
+    height: 62px;
+    color: #fff;
+    border-radius: 5px;
+    padding: 18px 25px;
+    font-weight: 650;
+    background: #0E52B7;
+    cursor: pointer;
+    box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, .5), 7px 7px 20px 0px rgba(0, 0, 0, .1), 4px 4px 5px 0px rgba(0, 0, 0, .1);
+    outline: none;
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+.phdgudes-contsbutn:before {
+    height: 0%;
+    width: 2px;
+}
+
+.phdgudes-contsbutn:hover {
+    box-shadow: 4px 4px 6px 0 rgb(255 168 0), -4px -4px 6px 0 rgb(255 189 0 / 50%), inset -4px -4px 6px 0 rgb(244 172 5 / 20%), inset 4px 4px 6px 0 rgb(255 168 0 / 0%);
+}
+
+.phdgudes-contbuts h2 {
+    font-size: 30px;
+    font-weight: 650;
+    text-align: center;
+    margin-top: 38px;
+    margin-bottom: 18px;
+    color: #0E52B7;
+    text-transform: capitalize;
+}
+
+.phdgudes-contacnums h2 {
+    font-size: 30px;
+    font-weight: 650;
+    text-align: center;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    color: #0E52B7;
+    overflow: hidden;
+}
+
+.phdgudes-contacnums b i {
+    font-size: 25px;
+    margin-right: 5px;
+}
+
+.phdgudes-contbuts {
+    overflow: hidden;
+    margin-bottom: 25px;
+    z-index: 99;
+}
+
+#phdgudes-asst {
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    margin-right: 12px;
+    border: 5px solid #ffa607;
+    display: none;
+}
+
+.phdgudes-main {
+    width: 100%;
+    max-width: 638px;
+    height: 100%;
+    background: white;
+    border-radius: 3px;
+    padding: 30px;
+    position: relative;
+    display: flex;
+    overflow: hidden;
+}
+
+.phdgudes-main .phdgudes-wrapper {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.phdgudes-main .phdgudes-wrapper .tile {
+    text-align: center;
+    margin-bottom: 20px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.phdgudes-main .phdgudes-wrapper .tile h3 {
+    font-size: 22px;
+    margin: 0px;
+    transition: all 0.3s ease;
+}
+
+.phdgudes-main .phdgudes-wrapper .phdgudes-radforms {
+    display: none;
+}
+
+.phdgudes-main .phdgudes-wrapper .phdgudes-ta {
+    width: 50%;
+    border: solid 2px #f1f1f1;
+    height: 62px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    margin-bottom: 20px;
+    font-weight: 500;
+    transition: color 0.3s ease;
+    user-select: none;
+    color: #0E52B7;
+    font-weight: 650;
+    text-transform: uppercase;
+    cursor: pointer;
+    text-align: center;
+}
+
+.phdgudes-main .phdgudes-wrapper .phdgudes-ta.phdgudes-log {
+    border-right: none;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.phdgudes-main .phdgudes-wrapper .phdgudes-ta.phdgudes-sign {
+    border-left: none;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+.phdgudes-main .phdgudes-wrapper .shape {
+    background: orange;
+    width: 50%;
+    height: calc(62px - 0px);
+    border-radius: 5px;
+    position: absolute;
+    color: #0E52B7;
+    top: 0.5px;
+    left: 0px;
+    opacity: 0.9;
+    transition: all 0.4s ease;
+}
+
+.phdgudes-main .phdgudes-wrapper .shape:hover {}
+
+.phdgudes-main .phdgudes-wrapper #login:checked~.shape {
+    left: 0px;
+    overflow: hidden;
+}
+
+.phdgudes-main .phdgudes-wrapper #login:checked~.phdgudes-log {
+    border-color: transparent;
+    z-index: 1;
+    color: white;
+}
+
+.phdgudes-main .phdgudes-wrapper #login:checked~.tile .signup {
+    display: none;
+}
+
+.phdgudes-main .phdgudes-wrapper #login:checked~.phdgudes_wrap {
+    transform: translateX(0);
+}
+
+.phdgudes-main .phdgudes-wrapper #login:checked~.phdgudes_wrap .signup_form {
+    opacity: 0;
+}
+
+.phdgudes-main .phdgudes-wrapper #signup:checked~.shape {
+    left: 50%;
+}
+
+.phdgudes-main .phdgudes-wrapper #signup:checked~.phdgudes-sign {
+    border-color: transparent;
+    z-index: 1;
+    color: white;
+}
+
+.phdgudes-main .phdgudes-wrapper #signup:checked~.tile .login {
+    display: none;
+}
+
+.phdgudes-main .phdgudes-wrapper #signup:checked~.phdgudes_wrap {
+    transform: translateX(-100%);
+}
+
+.phdgudes-main .phdgudes-wrapper #signup:checked~.phdgudes_wrap .login_form {
+    opacity: 0;
+}
+
+.phdgudes-main .phdgudes-wrapper a {
+    color: #f84298;
+    text-decoration: none;
+    transition: all 0.3s linear;
+}
+
+.phdgudes-main .phdgudes-wrapper a:hover {
+    color: #a547b1;
+}
+
+.phdgudes-main .phdgudes-wrapper .phdgudes_wrap {
+    display: flex;
+    width: 100%;
+    flex: 0 0 100%;
+    transition: transform 0.3s ease, opacity 0.2s ease;
+}
+
+.phdgudes-main .phdgudes-wrapper .phdgudes_wrap .form_fild {
+    width: 100%;
+    flex: 0 0 100%;
+    transition: all 0.5s ease;
+}
+
+.phdgudes-main .phdgudes-wrapper .phdgudes_wrap .form_fild .phdgudes-putingroup {
+    width: 100%;
+    margin-bottom: 12px;
+}
+
+.phdgudes-main .phdgudes-wrapper .phdgudes_wrap .form_fild .phdgudes-putingroup .phdgudes-putin {
+    border: solid #f1f1f1 2px;
+    border-radius: 5px;
+    width: 100%;
+    height: 40px;
+    padding: 5px 10px;
+    font-size: 15px;
+    font-weight: 500;
+    outline: none;
+    transition: all 0.3s linear;
+}
+
+.phdgudes-main .phdgudes-wrapper .phdgudes_wrap .form_fild .phdgudes-putingroup .phdgudes-putin::placeholder {
+    color: #adadad;
+}
+
+.phdgudes-main .phdgudes-wrapper .phdgudes_wrap .form_fild .phdgudes-putingroup .phdgudes-putin:hover {
+    border-color: rgba(248, 66, 151, 0.3);
+}
+
+.phdgudes-main .phdgudes-wrapper .phdgudes_wrap .form_fild .phdgudes-putingroup .phdgudes-putin:focus {
+    border-color: rgba(248, 66, 151, 0.3);
+}
+
+.phdgudes-main .phdgudes-wrapper .phdgudes_wrap .form_fild .forgot {
+    display: block;
+    margin-bottom: 15px;
+    padding: 0px 2px;
+}
+
+.phdgudes-main .phdgudes-wrapper .phdgudes_wrap .form_fild .btn {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 20px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.8px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s linear;
+}
+
+.phdgudes-main .phdgudes-wrapper .phdgudes_wrap .form_fild .btn:hover {
+    background: linear-gradient(-45deg, #a547b1, #f84298) no-repeat center;
+}
+
+.phdgudes-main .phdgudes-wrapper .phdgudes_wrap .form_fild .btn:active {
+    transform: scale(0.95);
+}
+
+.phdgudes-main .phdgudes-wrapper .phdgudes_wrap .form_fild .not_mem {
+    text-align: center;
+}
+
+.phdgudes-main .phdgudes-wrapper .phdgudes_wrap .form_fild .not_mem label {
+    pointer-events: none;
+}
+
+.phdgudes-main .phdgudes-wrapper .phdgudes_wrap .form_fild .not_mem label span {
+    pointer-events: all;
+    color: #f84298;
+    text-decoration: none;
+    transition: all 0.3s linear;
+}
+
+.phdgudes-main .phdgudes-wrapper .phdgudes_wrap .form_fild .not_mem label span:hover {
+    color: #a547b1;
+}
+
+.phdgudes-partfive {
+    margin-top: 62px;
+    overflow: hidden;
+    z-index: -999;
+    margin-bottom: 25px;
+}
+
+.phdgudes-hed h1 {
+    font-size: 36px;
+    font-weight: 650;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    color: #0E52B7;
+}
+
+.phdgudes-partone {
+    overflow: hidden;
+    z-index: -999;
+}
+
+.phdgudes-parttwo {
+    overflow: hidden;
+}
+
+.phdgudes-parttwo ul li {
+    list-style: none;
+}
+
+#phdgudes-process {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    z-index: 25;
+    width: 268px;
+    height: 60px;
+}
+
+#phdgudes-procesimag {
+    position: absolute;
+    z-index: -5;
+    margin-top: -12px;
+    margin-left: -18px;
+    overflow: hidden;
+}
+
+#phdgudes-procesimag1 {
+    position: absolute;
+    z-index: -5;
+    margin-top: -53px;
+    margin-left: 218px;
+    overflow: hidden;
+    display: none;
+}
+
+.phdgudes-process p {
+    font-weight: 650;
+}
+
+.phdgudes-process {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    z-index: 25;
+    width: 268px;
+    height: 78px;
+    margin-bottom: 18px;
+}
+
+.phdgudes-process p {
+    padding: 25px;
+    font-size: 15px;
+    text-align: center;
+    font-weight: 650;
+    z-index: 12;
+    overflow: hidden;
+    color: #0E52B7;
+    font-family: 'Rubik', sans-serif;
+}
+
+.phdgudes-parttwo p {
+    font-size: 16px;
+    font-family: 'Hind', sans-serif;
+    overflow: hidden;
+    text-transform: capitalize;
+}
+
+.phdgudes-partschors {
+    border-left: 5px solid #0E52B7;
+    border-right: 5px solid #0E52B7;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    padding: 25px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    overflow: hidden;
+    z-index: -99;
+}
+
+.phdgudes-partschors p {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 650;
+    font-family: 'Rubik', sans-serif;
+    text-transform: capitalize;
+}
+
+.phdgudes-partschors blockquote::before {
+    position: absolute;
+    left: 89px;
+    top: -38px;
+    content: open-quote;
+    margin-right: 0.15em;
+    vertical-align: -0.15em;
+    font-size: 68px;
+    color: #ffa607;
+}
+
+.phdgudes-partschors blockquote::after {
+    position: absolute;
+    content: close-quote;
+    margin-right: 1.15em;
+    vertical-align: -0.15em;
+    font-size: 68px;
+    margin-left: 959px;
+    margin-top: -48px;
+    color: #ffa607;
+}
+
+.phdgudes-partschors blockquote {
+    position: relative;
+    padding-left: 0px;
+    font-family: Georgia, serif;
+    font-size: 3.2rem;
+    font-weight: 500;
+    color: #333;
+    quotes: "\201c" "\201d" "\2018" "\2019";
+}
+
+.phdgudes-servresimag {
+    width: 425px;
+    height: 325px;
+    /*margin-left: 25px;*/
+}
+
+.phdgudes-formimag {
+    width: 389px;
+    height: 625px;
+    margin-top: 89px;
+}
+
+.phdgudes-partone p {
+    font-size: 15px;
+    line-height: 28px;
+    text-align: justify;
+    font-family: 'Hind', sans-serif;
+}
+
+.phdgudes-contqual p {
+    font-size: 15px;
+    line-height: 28px;
+    text-align: justify;
+    font-family: 'Hind', sans-serif;
+}
+
+.phdgudes-partforms {
+    margin-bottom: 25px;
+    border: 2px solid #0E52B7;
+}
+
+.phdgudes-date input #custom-input-date,
+.phdgudes-date label {
+    display: block;
+    outline: none;
+}
+
+.input-field {
+    margin-bottom: 16px;
+}
+
+.phdgudes-date input#custom-input-date:hover {
+    border: 1px solid #8f8f8f;
+}
+
+.phdgudes-date input#custom-input-date:focus {
+    border: 1px solid #007BFF;
+}
+
+.error {
+    border: 1px solid #DC3545 !important;
+}
+
+@media(min-width:321px) and (max-width:375px) {
+    .phdgudes-partschors blockquote::after {
+        font-size: 38px;
+        margin-left: 189px;
+        margin-top: -42px;
+    }
+    .phdgudes-arrow {
+        padding: 5px 38px;
+        width: 325px;
+        margin-bottom: 25px;
+        margin-top: 25px;
+    }
+    .phdgudes-formimag {
+        width: 313px;
+        height: 525px;
+        margin-top: 25px;
+    }
+    .phdgudes-servresimag {
+        width: 325px;
+        height: 250px;
+        /* margin-left: 25px; */
+    }
+    .phdgudes-card .phdgudes-title {
+        font-size: 16px;
+        margin-top: 0px;
+        margin-bottom: -8px;
+    }
+    #phdgudes-servscont {
+        width: 318px;
+    }
+    .phdgudes-card {
+        /*max-width:312px;*/
+        box-shadow: var(--shadowInsetLight), var(--shadowInsetDark), var(--shadowSurface);
+        width: 100%;
+        paddin: 5px;
+    }
+    #phdgudes-offers {
+        width: 298px;
+        margin-left: 25px;
+    }
+    #phdgudes-servsconts {
+        font-size: 25px;
+    }
+    .phdgudes-slider>div span {
+        padding: 42px 18px;
+        width: 50%;
+        height: 100%;
+        z-index: 0;
+    }
+    .phdgudes-slider>div span h2 {
+        font-size: 18px;
+        text-align: center;
+        font-weight: 650;
+    }
+    .phdgudes-slider>ul>li {
+        width: 5px;
+        height: 12px;
+        border-radius: 50%;
+        margin: 6px 6px 0;
+    }
+    .phdgudes-partschors blockquote::before {
+        left: -18px;
+        top: -18px;
+        font-size: 38px;
+    }
+    .phdgudes-subtbutn {
+        padding: 5px;
+        font-size: 15px;
+    }
+    #phdgudes-linkcont {
+        font-size: 15px;
+    }
+    .phdgudes-arrow p {
+        font-size: 16px;
+        line-height: 25px;
+    }
+    .phdgudes-partschors p {
+        font-size: 18px;
+    }
+    .phdgudes-contbuts h2 {
+        font-size: 18px;
+        margin-top: 38px;
+        margin-bottom: 18px;
+    }
+    .phdgudes-butnconts {
+        width: 80%;
+        height: 48px;
+        font-size: 18px;
+        margin-left: 25px;
+    }
+    .phdgudes-contacnums b i {
+        font-size: 18px;
+        margin-right: 5px;
+    }
+    .phdgudes-contacnums h2 {
+        font-size: 18px;
+        margin-bottom: 25px;
+        margin-top: 25px;
+    }
+    .phdgudes-main .phdgudes-wrapper .phdgudes-ta {
+        width: 50%;
+        height: 62px;
+        font-size: 15px;
+    }
+    .phdgudes-formcont h2 {
+        font-size: 21px;
+        margin-bottom: 25px;
+    }
+    .phdgudes-hed h1 {
+        font-size: 25px;
+        margin-top: -138px;
+        margin-bottom: 25px;
+    }
+}
+
+@media(min-width:376px) and (max-width:425px) {
+    .phdgudes-partschors blockquote::after {
+        font-size: 42px;
+        margin-left: 325px;
+        margin-top: -62px;
+    }
+    .phdgudes-arrow {
+        padding: 5px 38px;
+        width: 368px;
+        margin-bottom: 25px;
+        margin-top: 25px;
+    }
+    .phdgudes-formimag {
+        width: 325px;
+        height: 525px;
+        margin-top: 38px;
+        margin-left: 25px;
+    }
+    .phdgudes-servresimag {
+        width: 325px;
+        height: 250px;
+        margin-left: 31px;
+    }
+    .phdgudes-card .phdgudes-title {
+        font-size: 16px;
+        margin-top: 0px;
+        margin-bottom: -8px;
+    }
+    .phdgudes-card {
+        max-width: 312px;
+        box-shadow: var(--shadowInsetLight), var(--shadowInsetDark), var(--shadowSurface);
+        width: 100%;
+        padding: 5px;
+    }
+    #phdgudes-offers {
+        width: 298px;
+        margin-left: 48px;
+    }
+    #phdgudes-servsconts {
+        font-size: 25px;
+    }
+    .phdgudes-slider>div span {
+        padding: 42px 18px;
+        width: 50%;
+        height: 100%;
+        z-index: 0;
+    }
+    .phdgudes-slider>div span h2 {
+        font-size: 18px;
+        text-align: center;
+        font-weight: 650;
+    }
+    .phdgudes-slider>ul>li {
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        margin: 6px 6px 0;
+    }
+    .phdgudes-partschors blockquote::before {
+        left: 0px;
+        top: -18px;
+        font-size: 42px;
+    }
+    .phdgudes-servs {
+        margin-left: 25px;
+    }
+    .phdgudes-subtbutn {
+        padding: 5px;
+        font-size: 15px;
+    }
+    #phdgudes-linkcont {
+        font-size: 15px;
+    }
+    .phdgudes-arrow p {
+        font-size: 16px;
+        line-height: 25px;
+    }
+    .phdgudes-partschors p {
+        font-size: 18px;
+    }
+    .phdgudes-contbuts h2 {
+        font-size: 18px;
+        margin-top: 38px;
+        margin-bottom: 18px;
+    }
+    .phdgudes-butnconts {
+        width: 80%;
+        height: 48px;
+        font-size: 18px;
+        margin-left: 38px;
+    }
+    .phdgudes-contacnums b i {
+        font-size: 18px;
+        margin-right: 5px;
+    }
+    .phdgudes-contacnums h2 {
+        font-size: 18px;
+        margin-bottom: 25px;
+        margin-top: 25px;
+    }
+    .phdgudes-main .phdgudes-wrapper .phdgudes-ta {
+        width: 50%;
+        height: 62px;
+        font-size: 15px;
+    }
+    .phdgudes-formcont h2 {
+        font-size: 21px;
+        margin-bottom: 25px;
+    }
+    .phdgudes-hed h1 {
+        font-size: 25px;
+        margin-top: -118px;
+        margin-bottom: 25px;
+    }
+}
+
+@media(min-width:426px) and (max-width:575px) {
+    .phdgudes-partschors blockquote::after {
+        font-size: 48px;
+        margin-left: 325px;
+        margin-top: -48px;
+    }
+    .phdgudes-arrow {
+        padding: 5px 38px;
+        width: 525px;
+        margin-bottom: 25px;
+        margin-top: 25px;
+    }
+    .phdgudes-formimag {
+        width: 325px;
+        height: 525px;
+        margin-top: 38px;
+        margin-left: 112px;
+    }
+    .phdgudes-servresimag {
+        width: 325px;
+        height: 250px;
+        margin-left: 112px;
+    }
+    .phdgudes-card .phdgudes-title {
+        font-size: 16px;
+        margin-top: 0px;
+        margin-bottom: -8px;
+    }
+    .phdgudes-card {
+        max-width: 312px;
+        box-shadow: var(--shadowInsetLight), var(--shadowInsetDark), var(--shadowSurface);
+        width: 100%;
+        padding: 5px;
+    }
+    #phdgudes-offers {
+        width: 298px;
+        margin-left: 138px;
+    }
+    .phdgudes-slider>div span {
+        padding: 42px 18px;
+        width: 50%;
+        height: 100%;
+        z-index: 0;
+    }
+    .phdgudes-slider>div span h2 {
+        font-size: 18px;
+        text-align: center;
+        font-weight: 650;
+    }
+    .phdgudes-slider>ul>li {
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        margin: 6px 6px 0;
+    }
+    .phdgudes-partschors blockquote::before {
+        left: -18px;
+        top: -18px;
+        font-size: 48px;
+    }
+    .phdgudes-hed h1 {
+        font-size: 30px;
+        margin-bottom: 25px;
+        margin-top: -89px;
+    }
+    .phdgudes-main .phdgudes-wrapper .phdgudes-ta {
+        width: 50%;
+        height: 62px;
+        font-size: 15px;
+    }
+    .phdgudes-contbuts h2 {
+        font-size: 21px;
+        margin-top: 38px;
+        margin-bottom: 18px;
+    }
+    .phdgudes-butnconts {
+        width: 80%;
+        height: 48px;
+        font-size: 18px;
+        margin-left: 25px;
+    }
+    .phdgudes-contacnums b i {
+        font-size: 21px;
+        margin-right: 5px;
+    }
+    .phdgudes-contacnums h2 {
+        font-size: 21px;
+        margin-bottom: 25px;
+        margin-top: 25px;
+    }
+    .phdgudes-main .phdgudes-wrapper .phdgudes-ta {
+        width: 50%;
+        height: 62px;
+        font-size: 15px;
+    }
+    .phdgudes-partschors p {
+        font-size: 18px;
+    }
+    .phdgudes-servs {
+        margin-left: 25px;
+    }
+    #phdgudes-servscont {
+        width: 348px;
+        margin-left: -48px;
+    }
+}
+
+@media(min-width:576px) and (max-width:767px) {
+    .phdgudes-partschors blockquote::after {
+        font-size: 48px;
+        margin-left: 325px;
+        margin-top: -48px;
+    }
+    .phdgudes-arrow {
+        padding: 5px 38px;
+        width: 538px;
+        margin-bottom: 25px;
+        margin-top: 25px;
+    }
+    .phdgudes-formimag {
+        width: 325px;
+        height: 525px;
+        margin-top: 38px;
+        margin-left: 112px;
+    }
+    .phdgudes-servresimag {
+        width: 325px;
+        height: 250px;
+        margin-left: 112px;
+    }
+    .phdgudes-card .phdgudes-title {
+        font-size: 16px;
+        margin-top: 0px;
+        margin-bottom: -8px;
+    }
+    .phdgudes-card {
+        max-width: 312px;
+        box-shadow: var(--shadowInsetLight), var(--shadowInsetDark), var(--shadowSurface);
+        width: 100%;
+        padding: 5px;
+    }
+    #phdgudes-offers {
+        width: 298px;
+        margin-left: 138px;
+    }
+    .phdgudes-slider>div span {
+        padding: 42px 18px;
+        width: 50%;
+        height: 100%;
+        z-index: 0;
+    }
+    .phdgudes-slider>div span h2 {
+        font-size: 18px;
+        text-align: center;
+        font-weight: 650;
+    }
+    .phdgudes-slider>ul>li {
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        margin: 6px 6px 0;
+    }
+    .phdgudes-partschors blockquote::before {
+        left: -18px;
+        top: -18px;
+        font-size: 48px;
+    }
+    .phdgudes-hed h1 {
+        font-size: 30px;
+        margin-bottom: 25px;
+        margin-top: -68px;
+    }
+    .phdgudes-main .phdgudes-wrapper .phdgudes-ta {
+        width: 50%;
+        height: 62px;
+        font-size: 15px;
+    }
+    .phdgudes-contbuts h2 {
+        font-size: 25px;
+        margin-top: 38px;
+        margin-bottom: 18px;
+    }
+    .phdgudes-butnconts {
+        width: 80%;
+        height: 48px;
+        font-size: 18px;
+        margin-left: 25px;
+    }
+    .phdgudes-contacnums b i {
+        font-size: 25px;
+        margin-right: 5px;
+    }
+    .phdgudes-contacnums h2 {
+        font-size: 25px;
+        margin-bottom: 25px;
+        margin-top: 25px;
+    }
+    .phdgudes-main .phdgudes-wrapper .phdgudes-ta {
+        width: 50%;
+        height: 62px;
+        font-size: 15px;
+    }
+    .phdgudes-partschors p {
+        font-size: 18px;
+    }
+    .phdgudes-servs {
+        margin-left: 25px;
+        width: 625px;
+    }
+    #phdgudes-servscont {
+        width: 389px;
+        margin-left: -48px;
+    }
+}
+
+@media(min-width:768px) and (max-width:991px) {
+    .phdgudes-partschors blockquote::after {
+        font-size: 48px;
+        margin-left: 612px;
+        margin-top: -62px;
+    }
+    .phdgudes-arrow {
+        padding: 5px 38px;
+        width: 625px;
+        margin-bottom: 25px;
+        margin-top: 25px;
+    }
+    .phdgudes-formimag {
+        width: 325px;
+        height: 525px;
+        margin-top: 18px;
+        margin-left: 178px;
+    }
+    .phdgudes-servresimag {
+        width: 325px;
+        height: 250px;
+        margin-left: 112px;
+    }
+    .phdgudes-card .phdgudes-title {
+        font-size: 16px;
+        margin-top: 0px;
+        margin-bottom: -8px;
+    }
+    .phdgudes-card {
+        max-width: 312px;
+        box-shadow: var(--shadowInsetLight), var(--shadowInsetDark), var(--shadowSurface);
+        width: 100%;
+        padding: 5px;
+    }
+    #phdgudes-offers {
+        width: 298px;
+        margin-left: 189px;
+    }
+    .phdgudes-slider>div span {
+        padding: 42px 18px;
+        width: 50%;
+        height: 100%;
+        z-index: 0;
+    }
+    .phdgudes-slider>div span h2 {
+        font-size: 18px;
+        text-align: center;
+        font-weight: 650;
+    }
+    .phdgudes-slider>ul>li {
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        margin: 6px 6px 0;
+    }
+    .phdgudes-partschors blockquote::before {
+        left: 0px;
+        top: -18px;
+        font-size: 48px;
+    }
+    .phdgudes-hed h1 {
+        margin-top: -68px;
+    }
+    .phdgudes-servs {
+        margin-left: 25px;
+        width: 625px;
+    }
+    .phdgudes-partschors p {
+        font-size: 18px;
+    }
+    #phdgudes-servscont {
+        width: 438px;
+        margin-left: 36px;
+    }
+    .phdgudes-servresimag {
+        width: 325px;
+        height: 250px;
+        margin-left: 178px;
+    }
+}
+
+@media(min-width:1920px) {
+    .phdgudes-hed h1 {
+        font-size: 36px;
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+    .phdgudes-formcont h2 {
+        font-size: 25px;
+        margin-bottom: 25px;
+    }
+    .phdgudes-process p {
+        padding: 25px;
+        font-size: 15px;
+    }
+    .phdgudes-partschors p {
+        font-size: 25px;
+    }
+    .phdgudes-contqual p {
+        font-size: 15px;
+    }
+}
